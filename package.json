@@ -1,0 +1,37 @@
+{
+  "name": "@volkenomakers/react-native-tabs",
+  "version": "1.0.0",
+  "description": "React native package for tabs layout",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "yarn run build"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "typescript": "~5.3.3"
+  },
+  "peerDependencies": {
+    "react-native-pager-view": "6.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VolkenoMakers/react-native-tabs.git"
+  },
+  "keywords": [
+    "react-native",
+    "react-native-component",
+    "react-native-tabs",
+    "babacarMbengue12",
+    "volkeno",
+    "tabs"
+  ],
+  "author": "volkenomakers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VolkenoMakers/react-native-tabs/issues"
+  }
+}
